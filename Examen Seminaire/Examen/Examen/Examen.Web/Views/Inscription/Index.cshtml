@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Examen.ApplicationCore.Domain.Inscription>
+
+<form asp-action="Index">
+    Donner un nom :
+    <input type="text" name="nom" />
+    <input type="submit" value="Chercher" />
+</form>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Seminaire)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Participant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateInscription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TauxReduction)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <partial name="_DetailsSeminaire" model="item.Seminaire" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Participant.Nom) @Html.DisplayFor(modelItem => item.Participant.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateInscription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TauxReduction)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,12 @@
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\bin\Debug\net8.0\Examen.ApplicationCore.deps.json
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\bin\Debug\net8.0\Examen.ApplicationCore.dll
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\bin\Debug\net8.0\Examen.ApplicationCore.pdb
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.AssemblyInfo.cs
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.dll
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\refint\Examen.ApplicationCore.dll
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.pdb
+C:\Users\PC\Downloads\Examen\Examen\Examen.ApplicationCore\obj\Debug\net8.0\ref\Examen.ApplicationCore.dll

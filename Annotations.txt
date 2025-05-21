@@ -1,0 +1,13 @@
+//Annotation :
+    [Key] // la clé primaire
+    [StringLength(7)] //un champ de 7 caractères
+    [MinLength(3, ErrorMessage = "First name must be at least 3 characters")] //de longueur minimale 3 caractèr
+    [MaxLength(25, ErrorMessage = "First name cannot exceed 25 characters")]
+    [Display(Name = "Date of Birth")] //affichée “Date of Birth”
+    [DataType(DataType.Date)] //une date valide
+    [EmailAddress] //une adresse mail valide
+    [RegularExpression("^[0,9]{8}$")]//un numéro de téléphone contenant 8 chiffres
+    [Range(0, int.MaxValue)]// propriété Capacity doit être un entier positif
+    [RegularExpression(@"^\d{8}$", ErrorMessage = "Phone number must be 8 digits")]
+    [ForeignKey("Plane")] //La clé étrangère correspondante à l’entité Plane
+    [DataType(DataType.Currency)] //une valeur monétaire

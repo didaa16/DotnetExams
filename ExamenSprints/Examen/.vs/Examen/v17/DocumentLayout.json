@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Bureau\\Dotnet Doc Auto\\ExamenSprints\\Examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6735044-E625-48D7-80B0-B9D8AA9E292A}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\users\\pc\\onedrive\\bureau\\dotnet doc auto\\examensprints\\examen\\examen.applicationcore\\examen.applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6735044-E625-48D7-80B0-B9D8AA9E292A}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\examen.applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|c:\\users\\pc\\onedrive\\bureau\\dotnet doc auto\\examensprints\\examen\\examen.web\\examen.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|solutionrelative:examen.web\\examen.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Examen.ApplicationCore",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Bureau\\Dotnet Doc Auto\\ExamenSprints\\Examen\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+              "RelativeDocumentMoniker": "Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Bureau\\Dotnet Doc Auto\\ExamenSprints\\Examen\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+              "RelativeToolTip": "Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T23:58:22.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Examen.Web",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Bureau\\Dotnet Doc Auto\\ExamenSprints\\Examen\\Examen.Web\\Examen.Web.csproj",
+              "RelativeDocumentMoniker": "Examen.Web\\Examen.Web.csproj",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Bureau\\Dotnet Doc Auto\\ExamenSprints\\Examen\\Examen.Web\\Examen.Web.csproj",
+              "RelativeToolTip": "Examen.Web\\Examen.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T23:51:08.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

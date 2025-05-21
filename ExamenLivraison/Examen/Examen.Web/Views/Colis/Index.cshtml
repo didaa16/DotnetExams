@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Examen.ApplicationCore.Domain.Colis>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<fieldset>
+    <legend>Recherche</legend>
+    <form asp-action="index">
+        <label> Saisir une Date Livraison: </label>
+        <input type="date" name="filter1" />
+        <input type="submit" value="Search" />
+    </form>
+</fieldset>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateLivraison)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Montant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Poids)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Volume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientFK)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LivreurFK)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateLivraison)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Montant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Poids)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Volume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientFK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LivreurFK)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

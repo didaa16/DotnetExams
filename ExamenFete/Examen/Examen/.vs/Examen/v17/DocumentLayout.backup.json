@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|c:\\users\\pc\\onedrive\\bureau\\examen\\examen\\examen.web\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|solutionrelative:examen.web\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|c:\\users\\pc\\onedrive\\bureau\\examen\\examen\\examen.web\\views\\invitation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|solutionrelative:examen.web\\views\\invitation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|c:\\users\\pc\\onedrive\\bureau\\examen\\examen\\examen.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF4F2BF-CECF-4BFF-AC33-C4EB8D5B00E0}|Examen.Web\\Examen.Web.csproj|solutionrelative:examen.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\Examen.Web\\Views\\Invitation\\Index.cshtml",
+              "RelativeDocumentMoniker": "Examen.Web\\Views\\Invitation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\Examen.Web\\Views\\Invitation\\Index.cshtml",
+              "RelativeToolTip": "Examen.Web\\Views\\Invitation\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwC4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T19:41:18.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvitationController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\Examen.Web\\Controllers\\InvitationController.cs",
+              "RelativeDocumentMoniker": "Examen.Web\\Controllers\\InvitationController.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\Examen.Web\\Controllers\\InvitationController.cs",
+              "RelativeToolTip": "Examen.Web\\Controllers\\InvitationController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:29:43.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\Examen.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Examen.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Bureau\\Examen\\Examen\\Examen.Web\\Program.cs",
+              "RelativeToolTip": "Examen.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:32:57.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Examen.ApplicationCore.Domain.Client>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<form asp-action="Index">
+    Rechercher :
+    <input type="text" name="nom" />
+    <input type="submit" value="Search" />
+</form>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                CIN
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Login)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConseillerFK)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Identifiant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Login)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConseillerFK)
+            </td>
+            <td>
+                <img src="~/uploads/@item.Photo" width="50" height="50">
+            </td>
+            <td>
+                @Html.ActionLink("Conseiller Client", "Details", new { id=item.ConseillerFK }) |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
